@@ -11,6 +11,8 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Footer from './components/Footer/Footer';
 import Services from './components/Home/Services/Services';
+import Errorfile from './components/Errorfile/Errorfile';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -40,6 +42,15 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
+          <Route exact path="*">
+            <Errorfile></Errorfile>
+          </Route>
+          <PrivateRoute path="/register">
+          <Contact></Contact>
+          </PrivateRoute>
+          <PrivateRoute path="/register">
+          <About></About>
+          </PrivateRoute>
         </Switch>
         <Footer></Footer>
         </BrowserRouter>

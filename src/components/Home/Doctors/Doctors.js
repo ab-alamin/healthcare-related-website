@@ -14,20 +14,20 @@ const doctors = [
     },
     {
         img: doctors2,
-        name: 'karbon lil',
-        expert: 'sergery',
+        name: 'farabi ',
+        expert: 'Medicine',
 
     },
     {
         img: doctors3,
-        name: 'karbon lil',
-        expert: 'sergery',
+        name: 'Natasha',
+        expert: 'Heart ',
 
     },
     {
         img: doctors4,
-        name: 'karbon lil',
-        expert: 'sergery',
+        name: 'dorton',
+        expert: 'Eyes',
 
     },
 ]

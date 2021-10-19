@@ -10,9 +10,9 @@ const Register = () => {
                 <br />
                 <input type="password" placeholder="Password" />
                 <br />
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" className="btn btn-success m-2" />
             </form>
-            ,<Link to="/login">Already Registered?</Link>
+            <Link to="/login"className="btn btn-warning bg-danger text-light mt-5 mb-20">Already Registered?</Link>
         </div>
     );
 };

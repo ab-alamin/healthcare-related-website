@@ -12,7 +12,7 @@ const Login = () => {
             <br />
             <button onClick={signInUsingGithub}>Github Sign In</button>
             <br />
-            <Link to="/register">New Register?</Link>
+            <Link to="/register" className="bg-info text-dark mt-5 mb-5">New Register?</Link>
         </div>
     );
 };

@@ -6,17 +6,6 @@ const Contact = () => {
         <div>
             <div className="card text-center">
   <div className="card-header">
-    <ul className="nav nav-pills card-header-pills">
-      <li className="nav-item">
-      <Link to="home">Home</Link>
-      </li>
-      <li className="nav-item">
-      <Link to="home">Home</Link>
-      </li>
-      <li className="nav-item">
-      <Link to="home">Home</Link>
-      </li>
-    </ul>
   </div>
   <div className="card-body">
     <h5 className="card-title">More Information Please Contract Us</h5>
@@ -24,7 +13,7 @@ const Contact = () => {
     <Link to="register"  className="btn btn-primary">Please Register</Link>
   </div>
 </div>
-            <h2>Contract us: 01846121538</h2>
+            <h2 className="mt-20">Contract us: 01846121538</h2>
         </div>
     );
 };
