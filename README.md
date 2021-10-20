@@ -3,7 +3,7 @@
 
 
 ## ..... firebase live link
-https://healthcare-related-websi-496d6.web.app
+https://healthcare-related-websi-496d6.firebaseapp.com/
  
 ## .....Netlify  live link 
 https://trusting-hopper-f1368b.netlify.app
