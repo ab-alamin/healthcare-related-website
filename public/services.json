@@ -2,14 +2,14 @@
     {
         "id": 1,
         "name": "Online Health Services",
-        "fee":"1000",
+        "fee":"free",
         "description":"Dr.Ali is Online Health speasilized",
         "img":"https://i.ibb.co/R3xS9gD/1.jpg"
     },
     {
         "id": 2,
         "name": "general and specialty surgical services",
-        "fee":"1000",
+        "fee":"Minimum 1000",
         "description":"Dr.labib is a surgery speasilized",
         "img":"https://i.ibb.co/N6y5kC9/2.jpg"
     },
@@ -23,21 +23,21 @@
     {
         "id": 4,
         "name": "Blood Test",
-        "fee":"1000",
+        "fee":"500",
         "description":"Dr.Tanisha speasilized",
         "img":"https://i.ibb.co/QFHDT8z/4.jpg"
     },
     {
         "id": 5,
         "name": "Mental Health",
-        "fee":"1000",
+        "fee":"Minimum 20,000",
         "description":"Dr.Kabiris a madecine speasilized",
         "img":"https://i.ibb.co/PYn7yPC/5.jpg"
     },
     {
         "id": 6,
         "name": "Presure Test",
-        "fee":"1000",
+        "fee":"100",
         "description":"Dr.Shijaan is a speasilized",
         "img":"https://i.ibb.co/w7RCFp2/6.jpg"
     }

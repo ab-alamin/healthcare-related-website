@@ -8,13 +8,16 @@ https://healthcare-related-websi-496d6.web.app
 ## .....Netlify  live link 
 https://trusting-hopper-f1368b.netlify.app
 
-## ..... There are 6 route 
+## ..... There are 9 route 
  1.Home
  2.Services
  3.About
  4.Contact
  5.Register
  6.Login
+ 7.Doctors
+ 8.Information
+ 9.Error(404)
 
 
 ### `npm start`

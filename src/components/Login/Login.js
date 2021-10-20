@@ -7,12 +7,12 @@ const Login = () => {
 
     return (
         <div>
-            <h2>Please log In</h2>
-            <button onClick={signInUsinggoogle}>Google Sign In</button>
+            <h2>Please Login</h2>
+            <button className="btn btn-warning pb-3 m-5" onClick={signInUsinggoogle}>Google Sign In</button>
             <br />
-            <button onClick={signInUsingGithub}>Github Sign In</button>
+            <button className="btn btn-secondary pb-3 m-5" onClick={signInUsingGithub}>Github Sign In</button>
             <br />
-            <Link to="/register" className="bg-info text-dark mt-5 mb-5">New Register?</Link>
+            <button className="btn btn-danger pb-3 m-5">New Register</button>
         </div>
     );
 };

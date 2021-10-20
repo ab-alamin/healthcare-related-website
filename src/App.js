@@ -13,6 +13,8 @@ import Footer from './components/Footer/Footer';
 import Services from './components/Home/Services/Services';
 import Errorfile from './components/Errorfile/Errorfile';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Information from './components/Information/Information';
+import Doctors from './components/Home/Doctors/Doctors';
 
 function App() {
   return (
@@ -36,21 +38,24 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
-          <Route path="/about">
+          {/* <Route path="/about">
             <About></About>
-          </Route>
+          </Route> */}
           <Route path="/contact">
             <Contact></Contact>
           </Route>
+          <Route path="/doctors">
+            <Doctors></Doctors>
+          </Route>
+          <PrivateRoute path="/information/:serviceId">
+            <Information></Information>
+          </PrivateRoute>
+          <PrivateRoute path="/about">
+            <About></About>
+          </PrivateRoute>
           <Route exact path="*">
             <Errorfile></Errorfile>
           </Route>
-          <PrivateRoute path="/register">
-          <Contact></Contact>
-          </PrivateRoute>
-          <PrivateRoute path="/register">
-          <About></About>
-          </PrivateRoute>
         </Switch>
         <Footer></Footer>
         </BrowserRouter>

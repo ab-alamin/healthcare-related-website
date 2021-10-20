@@ -34,7 +34,7 @@ const doctors = [
 
 const Doctors = () => {
     return (
-        <div className="container">
+        <div id="doctors" className="container">
             <h2 className="text-primary mt-5"> Our Doctors</h2>
             <div className="row">
                 {
