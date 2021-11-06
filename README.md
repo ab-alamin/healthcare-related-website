@@ -1,12 +1,7 @@
-## ..... github link 
-"https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-ab-alamin"
+# Web site name: Al Kemi Hospital Feni
 
-
-## ..... firebase live link
-https://healthcare-related-websi-496d6.firebaseapp.com/
- 
-## .....Netlify  live link 
-https://trusting-hopper-f1368b.netlify.app
+# This is a a healthcare web site . this site is very usefull for every person.becouse this site has all doctor information.
+..... This site make firebase authentication .When you open this site you can see our services then if you needed service information then you must loggin. Otherwise you can't see any information for our services.
 
 ## ..... There are 9 route 
  1.Home
@@ -18,6 +13,17 @@ https://trusting-hopper-f1368b.netlify.app
  7.Doctors
  8.Information
  9.Error(404)
+
+## ..... github link 
+"https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-ab-alamin"
+
+
+## ..... firebase live link
+https://healthcare-related-websi-496d6.web.app/
+ 
+
+
+
 
 
 ### `npm start`
